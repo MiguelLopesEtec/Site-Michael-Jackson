@@ -61,7 +61,7 @@
 }
 
 .header h1 {
-    padding-top: 8px;
+    padding-top: 7px;
     font-size: 40px;
     color: rgb(226, 207, 30);
 }
@@ -329,6 +329,7 @@
     place-self: center;
 
 }
+
 
 
 
