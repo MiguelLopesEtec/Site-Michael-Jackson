@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index/style.css">
+    <title>Michael Jackson</title>
+</head>
+    <body class="faClube">
+        <h2>Fã Clube</h2>
+        <a class="home" href="index.html" target="_parent"><img src="imagens/home.webp" alt=""></a>
+        <fieldset class="all">
+            <legend>Entre Para O Fã Clube</legend>
+            <form action="mailto:aleatorio12345@gmail.com?subject=Formulario_assunto" method="dialog">
+                <div class="formConcat"><p>Nome</p><input type="text" name="var_name"></div>
+                <div class="formConcat"><p>Email</p><input type="email" name="var_email"></div>
+                <div class="formConcat"><p>Data de Nascimento</p><input type="date" name="var_birthday"></div>
+                <div class="formConcat"><p>Telefone</p><input placeholder="(00) 00000-0000" type="tel" name="var_tel" maxlength="15"></div>
+                <div class="formConcat"><p>CPF</p><input placeholder="000000000-00" type="text" name="var_cpf" maxlength="12"></div>
+                <div class="formConcat"><p>RG</p><input placeholder="00000000-0" type="text" name="var_rg" maxlength="10"></div>
+                <div class="formConcat"><label for="Gender"><p>Gênero</p>
+                    <select name="gender" id="4">
+                        <option value="select">selecione</option>
+                        <option value="Male">Masculino</option>
+                        <option value="Female">Feminino</option>
+                        <option value="another">Outro</option>
+                    </select>
+                </label></div>
+                <div class="formConcat">
+                    <label for="Nacionalidade"> <p>Nacionalidade</p>
+                        <select name="Nacionalidade" id="11">
+                            <option value="select">selecione</option>
+                            <option value="Brasil">Brasil</option>
+                            <option value="Alemanha">Alemanha</option>
+                            <option value="Argentina">Argentina</option>
+                            <option value="Russia">Russia</option>
+                            <option value="Estados_Unidos">Estados Unidos</option>
+                            <option value="China">China</option>
+                            <option value="Japao">Japão</option>
+                            <option value="Uruguai">Uruguai</option>
+                            <option value="Paraguai">Paraguai</option>
+                            <option value="N_definido">Não Definido</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="formConcat"><p>Cidade</p><input type="text" name="var_city"></div>
+                <div class="formConcat">
+                    <label for="Uf"><p>UF</p>
+                        <select name="UF" id="10">
+                            <option value="select">selecione</option>
+                            <option value="RO">RO</option>
+                            <option value="AC">AC</option>
+                            <option value="AM">AM</option>
+                            <option value="RR">RR</option>
+                            <option value="PA">PA</option>
+                            <option value="AP">AP</option>
+                            <option value="TO">TO</option>
+                            <option value="MA">MA</option>
+                            <option value="PI">PI</option>
+                            <option value="SP">SP</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="formConcat"><p>Bairro</p><input type="text" name="var_neighborhood"></div>
+                <div class="formConcat"><p>CEP</p><input type="text" placeholder="00000-000" name="var_cep" maxlength="9"></div>
+                <div class="final">
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Cancelar</button>
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>

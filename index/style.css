@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.nav {
+    display: flex;
+    background: linear-gradient(180deg,rgb(27, 26, 102), rgb(29, 27, 129));
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: auto;
+    font-family: "Noto Serif JP";
+}
+
+.nav a:hover {
+    color: rgb(255, 230, 0);
+}
+
+.borda {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    background: linear-gradient(45deg, rgb(116, 116, 116), rgb(65, 65, 65), rgb(116, 116, 116));
+    display: flex;
+}
+
+.content p {
+    font-family: "Dancing Script";
+    font-size: 100px;
+    color: rgb(221, 208, 28);
+    transform: rotate(-10deg);
+    margin-left: 80px;
+}
+
+.footer {
+    place-items: center;
+    color: white;
+    background: linear-gradient(90deg, rgb(10, 10, 121), rgb(42, 42, 211), rgb(10, 10, 121), rgb(42, 42, 211), rgb(10, 10, 121));
+}
+
+.footer p {
+    font-family: "Noto Serif JP";
+    padding-top: 12px;
+}
+
+.header {
+    background: linear-gradient(90deg, rgb(10, 10, 121), rgb(42, 42, 211), rgb(10, 10, 121), rgb(42, 42, 211), rgb(10, 10, 121));
+    font-family: "Crimson Text";
+    place-items: center;
+}
+
+.MJ {
+    margin-top: 30px;
+    width: 570px;
+    margin-left: 80px;
+}
+
+.header h1 {
+    padding-top: 9px;
+    font-size: 40px;
+    color: rgb(226, 207, 30);
+}
+
+.home {
+    width: 40px;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+
+.home img {
+    width: 40px;
+}
+
+.home:hover {
+    left: 5px;
+    top: 5px;
+}
+
+.home img:hover {
+    width: 50px;
+}
+
+.contentBio {
+    background: linear-gradient(45deg, rgb(116, 116, 116), rgb(65, 65, 65), rgb(116, 116, 116));
+    background-attachment: fixed;
+}
+
+.BioConcat {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+}
+
+.BioConcat img {
+    width: 300px;
+    height: 420px;
+    margin-bottom: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.BioConcat p {
+    font-size: 17px;
+    font-family: "Crimson Text";
+    text-align: justify;
+    margin-right: 50px;
+}
+
+.BioConcat div {
+    display: block;
+    display: grid;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.BioConcat h3 {
+    place-self: center;
+    font-family: "Crimson Text";
+    font-size: 20px;
+}
+
+.titleContent {
+    place-self: center;
+    font-size: 40px;
+    color: rgb(212, 194, 27);
+    font-family: "Crimson Text";
+    margin-top: 40px;
+}
+
+.SecBio {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.SecBio p {
+    text-align: justify;
+    font-size: 17px;
+    font-family: "Crimson Text";
+    color: white;
+}
+
+.contentAlb {
+    background: linear-gradient(45deg, rgb(116, 116, 116), rgb(65, 65, 65), rgb(116, 116, 116));
+    background-attachment: fixed;
+}
+
+.contentFotos {
+    background: linear-gradient(45deg, rgb(116, 116, 116), rgb(65, 65, 65), rgb(116, 116, 116));
+    background-attachment: fixed;
+    padding-bottom: 60px;
+}
+
+.contentAlb h2 {
+    place-self: center;
+    font-size: 40px;
+    color: rgb(212, 194, 27);
+    font-family: "Crimson Text";
+    margin-top: 40px;
+}
+
+.discos {
+    display: grid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.discos a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(36, 36, 36);
+    margin-top: 40px;
+    border-radius: 10px;
+    display: block;
+    display: flex;
+}
+
+.discos img {
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.discos div {
+    margin-top: 40px;
+}
+
+.discos a:hover {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgb(77, 77, 77);
+}
+
+.AlbTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.foto {
+    display: block;
+    display: flex;
+    font-family: "Dancing Script";
+    font-size: 40px;
+    color: rgb(221, 208, 28);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.foto img {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    border-radius: 8px;
+}
+
+.foto p {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.left {
+    margin-left: 200px;
+}
+
+.right {
+    margin-right: 200px;
+}
+
+.contentLegacy {
+    margin-left: 100px;
+    margin-right: 100px;
+    background: linear-gradient(45deg, rgb(116, 116, 116), rgb(65, 65, 65), rgb(116, 116, 116));
+    background-attachment: fixed;
+    color: white;
+}
+
+.contentLegacy h2 {
+    place-self: center;
+    font-size: 40px;
+    color: rgb(212, 194, 27);
+    font-family: "Crimson Text";
+    margin-top: 40px;
+}
+
+.contentLegacy div {
+    display: block;
+    display: flex;
+    margin-top: 50px;
+}
+
+.michael {
+    width: 450px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.contentLegacy div p {
+    text-align: justify;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contentLegacy h3 {
+    font-family: "Dancing Script";
+    font-size: 100px;
+    color: rgb(221, 208, 28);
+    transform: rotate(-10deg);
+    place-self: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.faClube {
+    background: linear-gradient(90deg, rgb(10, 10, 121), rgb(42, 42, 211), rgb(10, 10, 121), rgb(42, 42, 211), rgb(10, 10, 121));
+    color: white;
+}
+
+.faClube legend {
+    color: rgb(255, 255, 255);
+    place-self: center;
+    border-radius: 5px;
+}
+
+.all {
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 15px;
+    border-color: rgb(193, 196, 26);
+    place-items: center;
+}
+
+.final {
+    place-self: center;
+    margin-top: 10px;
+}
+
+.final button {
+    background-color: rgb(193, 196, 26);
+    color: rgb(0, 0, 0);
+    height: 40px;
+    width: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.faClube h2 {
+    place-self: center;
+    font-size: 40px;
+    color: rgb(212, 194, 27);
+    font-family: "Crimson Text";
+    margin-top: 40px;
+}
+
+.link {
+    place-self: center;
+}

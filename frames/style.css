@@ -1,0 +1,20 @@
+.content {
+    background: linear-gradient(45deg, rgb(116, 116, 116), rgb(65, 65, 65), rgb(116, 116, 116));
+    background-attachment: fixed;
+}
+
+#none div {
+    margin: 3px;
+    border-radius: 8px;
+    background-color: rgb(46, 46, 46);
+    place-items: center;
+    color: white;
+    min-height: 100%;
+    width: 98%;
+}
+
+#none h2 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 170px;
+}
