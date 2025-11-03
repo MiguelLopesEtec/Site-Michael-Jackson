@@ -61,7 +61,7 @@
 }
 
 .header h1 {
-    padding-top: 9px;
+    padding-top: 1px;
     font-size: 40px;
     color: rgb(226, 207, 30);
 }
@@ -327,4 +327,5 @@
 
 .link {
     place-self: center;
+
 }
